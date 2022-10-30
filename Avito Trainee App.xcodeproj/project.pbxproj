@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3543B09F290B2472007087DD /* DateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543B09E290B2472007087DD /* DateWrapper.swift */; };
 		359E4D882906F5850087B8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4D872906F5850087B8AF /* AppDelegate.swift */; };
-		359E4D8A2906F5850087B8AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4D892906F5850087B8AF /* SceneDelegate.swift */; };
 		359E4D8C2906F5850087B8AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4D8B2906F5850087B8AF /* ViewController.swift */; };
-		359E4D8F2906F5850087B8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359E4D8D2906F5850087B8AF /* Main.storyboard */; };
 		359E4D912906F5860087B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359E4D902906F5860087B8AF /* Assets.xcassets */; };
 		359E4D942906F5860087B8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359E4D922906F5860087B8AF /* LaunchScreen.storyboard */; };
+		359E4D9E29071CC20087B8AF /* AvitoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4D9D29071CC20087B8AF /* AvitoResponse.swift */; };
+		359E4DA2290814EF0087B8AF /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4DA1290814EF0087B8AF /* EmployeeCell.swift */; };
+		359E4DA429095DEE0087B8AF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4DA329095DEE0087B8AF /* Service.swift */; };
+		359E4DAC2909B6480087B8AF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E4DAB2909B6480087B8AF /* Repository.swift */; };
+		5091A2355F7AFDDD9F806CBB /* Pods_Avito_Trainee_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFACB3858338CED6A4A79FD /* Pods_Avito_Trainee_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1648AC9E7938B7974FBB384E /* Pods-Avito Trainee App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avito Trainee App.debug.xcconfig"; path = "Target Support Files/Pods-Avito Trainee App/Pods-Avito Trainee App.debug.xcconfig"; sourceTree = "<group>"; };
+		3543B09E290B2472007087DD /* DateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateWrapper.swift; sourceTree = "<group>"; };
 		359E4D842906F5850087B8AF /* Avito Trainee App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito Trainee App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359E4D872906F5850087B8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		359E4D892906F5850087B8AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		359E4D8B2906F5850087B8AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		359E4D8E2906F5850087B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		359E4D902906F5860087B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		359E4D932906F5860087B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		359E4D952906F5860087B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359E4D9D29071CC20087B8AF /* AvitoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoResponse.swift; sourceTree = "<group>"; };
+		359E4DA1290814EF0087B8AF /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		359E4DA329095DEE0087B8AF /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		359E4DAB2909B6480087B8AF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6EFACB3858338CED6A4A79FD /* Pods_Avito_Trainee_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avito_Trainee_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBD857CE4D02A370C6E7B69 /* Pods-Avito Trainee App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avito Trainee App.release.xcconfig"; path = "Target Support Files/Pods-Avito Trainee App/Pods-Avito Trainee App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5091A2355F7AFDDD9F806CBB /* Pods_Avito_Trainee_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D916BA00E759F4C8F34847A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1648AC9E7938B7974FBB384E /* Pods-Avito Trainee App.debug.xcconfig */,
+				7DBD857CE4D02A370C6E7B69 /* Pods-Avito Trainee App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		359E4D7B2906F5850087B8AF = {
 			isa = PBXGroup;
 			children = (
 				359E4D862906F5850087B8AF /* Avito Trainee App */,
 				359E4D852906F5850087B8AF /* Products */,
+				2D916BA00E759F4C8F34847A /* Pods */,
+				AEA6466497F4BA99DC50C85C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,50 @@
 		359E4D862906F5850087B8AF /* Avito Trainee App */ = {
 			isa = PBXGroup;
 			children = (
+				359E4DAA2909B6290087B8AF /* Repository */,
+				359E4D9B29071C710087B8AF /* Network */,
 				359E4D872906F5850087B8AF /* AppDelegate.swift */,
-				359E4D892906F5850087B8AF /* SceneDelegate.swift */,
 				359E4D8B2906F5850087B8AF /* ViewController.swift */,
-				359E4D8D2906F5850087B8AF /* Main.storyboard */,
+				359E4DA1290814EF0087B8AF /* EmployeeCell.swift */,
 				359E4D902906F5860087B8AF /* Assets.xcassets */,
 				359E4D922906F5860087B8AF /* LaunchScreen.storyboard */,
 				359E4D952906F5860087B8AF /* Info.plist */,
 			);
 			path = "Avito Trainee App";
+			sourceTree = "<group>";
+		};
+		359E4D9B29071C710087B8AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				359E4D9C29071C810087B8AF /* Model */,
+				359E4DA329095DEE0087B8AF /* Service.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		359E4D9C29071C810087B8AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				359E4D9D29071CC20087B8AF /* AvitoResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		359E4DAA2909B6290087B8AF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				359E4DAB2909B6480087B8AF /* Repository.swift */,
+				3543B09E290B2472007087DD /* DateWrapper.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AEA6466497F4BA99DC50C85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFACB3858338CED6A4A79FD /* Pods_Avito_Trainee_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 359E4D982906F5860087B8AF /* Build configuration list for PBXNativeTarget "Avito Trainee App" */;
 			buildPhases = (
+				C7144E770E1E6A0F42B48346 /* [CP] Check Pods Manifest.lock */,
 				359E4D802906F5850087B8AF /* Sources */,
 				359E4D812906F5850087B8AF /* Frameworks */,
 				359E4D822906F5850087B8AF /* Resources */,
+				667FE6EFE6DB5C1821005950 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +186,52 @@
 			files = (
 				359E4D942906F5860087B8AF /* LaunchScreen.storyboard in Resources */,
 				359E4D912906F5860087B8AF /* Assets.xcassets in Resources */,
-				359E4D8F2906F5850087B8AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		667FE6EFE6DB5C1821005950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avito Trainee App/Pods-Avito Trainee App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avito Trainee App/Pods-Avito Trainee App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Avito Trainee App/Pods-Avito Trainee App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7144E770E1E6A0F42B48346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avito Trainee App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		359E4D802906F5850087B8AF /* Sources */ = {
@@ -139,22 +239,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				359E4D8C2906F5850087B8AF /* ViewController.swift in Sources */,
+				359E4DA2290814EF0087B8AF /* EmployeeCell.swift in Sources */,
+				359E4DA429095DEE0087B8AF /* Service.swift in Sources */,
+				359E4D9E29071CC20087B8AF /* AvitoResponse.swift in Sources */,
 				359E4D882906F5850087B8AF /* AppDelegate.swift in Sources */,
-				359E4D8A2906F5850087B8AF /* SceneDelegate.swift in Sources */,
+				359E4DAC2909B6480087B8AF /* Repository.swift in Sources */,
+				3543B09F290B2472007087DD /* DateWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		359E4D8D2906F5850087B8AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				359E4D8E2906F5850087B8AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		359E4D922906F5860087B8AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +298,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +360,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -282,6 +382,7 @@
 		};
 		359E4D992906F5860087B8AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648AC9E7938B7974FBB384E /* Pods-Avito Trainee App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +393,9 @@
 				INFOPLIST_FILE = "Avito Trainee App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +411,7 @@
 		};
 		359E4D9A2906F5860087B8AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBD857CE4D02A370C6E7B69 /* Pods-Avito Trainee App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +422,9 @@
 				INFOPLIST_FILE = "Avito Trainee App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
